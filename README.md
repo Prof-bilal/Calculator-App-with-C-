@@ -73,33 +73,6 @@ git clone https://github.com/your-username/Calculator.git
 - Press `Ctrl + F5`
 
 ---
-
-## 🧠 Learning Outcomes
-
-- Console input/output handling
-- Loops and conditional logic
-- Input validation
-- Error handling
-- Git & GitHub workflow
-- Clean code practices
-
----
-
-## 📌 Future Improvements
-
-- Switch-case refactor
-- Power and square root operations
-- GUI version (WinForms / WPF)
-- Save history to file
-
----
-
-## 👤 Author
-
-**Bilal**
-
----
-
 ## 📄 License
 
 This project is for learning purposes and is open for improvement.
@@ -137,7 +110,5 @@ This project is for learning purposes and is open for improvement.
 
 ---
 
-## 📄 License
 
-This project is for learning purposes and is open for improvement.
 
