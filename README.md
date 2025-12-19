@@ -1,114 +1,113 @@
-# 🧮 Console Calculator (C#)
-
-A simple **console-based calculator application** built using **C# (.NET)**.  
-This project supports basic arithmetic operations with **input validation**, **error handling**, and **calculation history**.
-
----
-
-## 🚀 Features
-
-- ✅ Addition
-- ✅ Subtraction
-- ✅ Multiplication
-- ✅ Division (with division-by-zero check)
-- ✅ Percentage calculation
-- ✅ Input validation using `double.TryParse`
-- ✅ Calculation history tracking
-- ✅ Colored console UI for better readability
-
----
-
-## 🛠 Technologies Used
-
-- Language: **C#**
-- Framework: **.NET Console Application**
-- IDE: **Visual Studio**
-- Version Control: **Git & GitHub**
-
----
-
-## 📋 How It Works
-
-1. User is prompted to start the calculator.
-2. Select an operation from the menu.
-3. Enter numeric values (invalid input is rejected).
-4. Result is displayed.
-5. User can:
-   - Continue calculations
-   - View calculation history
-   - Exit the application
-
----
-
-## 📸 Sample Operations
-10 + 5 = 15
-20 - 7 = 13
-6 * 4 = 24
-10 / 2 = 5
-50 / 200 = 25%
-
----
-
-## 📂 Project Structure
 
 
+🧮 C# Console Calculator
 
+A colorful, menu-driven C# console calculator that handles real user input, real errors, and keeps track of what you calculate.
+
+Not a toy. A practice project done right.
+
+✨ Highlights
+
+✔ Clean console UI with colors
+✔ Beginner-friendly but solid logic
+✔ Safe input handling (no crashes)
+✔ Calculation history saved during runtime
+✔ Covers both basic & advanced math
+
+🧠 Supported Operations
+
+➕ Addition
+
+➖ Subtraction
+
+✖ Multiplication
+
+➗ Division (with zero-division check)
+
+📊 Percentage
+
+⬜ Square
+
+🧊 Cube
+
+√ Square Root
+
+🔼 Power
+
+📈 Logarithm
+
+⚙️ Tech Stack
+
+Language: C#
+
+Type: Console Application
+
+Framework: .NET
+
+Key Concepts Used:
+
+while loops
+
+if / else conditions
+
+List<string> for history
+
+double.TryParse() for validation
+
+Math class
+
+ConsoleColor for UI
+
+🧪 How the App Works
+
+User chooses whether to start the calculator
+
+Selects an operation from the menu
+
+Enters numbers (validated input only)
+
+Result is calculated & displayed
+
+Calculation is stored in history
+
+User can view history or continue
+
+Simple flow. No confusion.
+
+📸 Example Output
+8 * 5 = 40
+Square of 6 = 36
+Square Root of 25 = 5
+2 ^ 4 = 16
+
+📂 Project Structure
 Calculator/
-│
 ├── Program.cs
-├── Calculator.csproj
-├── README.md
+└── README.md
 
+📚 What I Learned
 
----
+Writing safe input logic
 
-## ▶️ How to Run
+Handling runtime errors properly
 
-1. Clone the repository:
-git clone https://github.com/your-username/Calculator.git
+Using lists to store session data
 
-2. Open the project in **Visual Studio**
+Creating better console UX
 
-3. Run the application:
-- Press `Ctrl + F5`
+Structuring long programs logically
 
----
-## 📄 License
+🚀 Improvements Planned
 
-This project is for learning purposes and is open for improvement.
+Code refactoring into methods
 
-2. Open the project in **Visual Studio**
+Add trigonometric functions
 
-3. Run the application:
-- Press `Ctrl + F5`
+Save history to a file
 
----
+Cleaner menu structure
 
-## 🧠 Learning Outcomes
+👤 Author
 
-- Console input/output handling
-- Loops and conditional logic
-- Input validation
-- Error handling
-- Git & GitHub workflow
-- Clean code practices
-
----
-
-## 📌 Future Improvements
-
-- Switch-case refactor
-- Power and square root operations
-- GUI version (WinForms / WPF)
-- Save history to file
-
----
-
-## 👤 Author
-
-**Bilal**
-
----
-
-
-
+Bilal
+Learning C# by building — not copying.
